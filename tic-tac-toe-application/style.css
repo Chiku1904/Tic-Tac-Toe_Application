@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+
+.game{
+    text-align: center;
+    vertical-align: middle;
+    margin: 10% 10%;
+}
+.grid{
+    background-color: white;
+    display:inline-grid;
+    grid-template-columns:repeat(3, 120px) ;
+    grid-template-rows: repeat(3, 120px);
+    box-shadow: 0px 0px 20px black;
+}
+
+.grid > div{
+    border: 1px solid black;
+    font-size: 70px;
+    line-height: 120px;
+}
+
+.message{
+margin: 20px;
+font-size: larger;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: brown;
+    color: white;
+    transition: all ease 0.1s;
+}
+
+button:focus{
+    scale: 0.90;
+}
